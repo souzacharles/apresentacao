@@ -18,6 +18,7 @@ output:
       ratio: 16:9 #  4:3
 
 ---
+class: animated zoomIn center
 
 ```{r PDF, echo=FALSE, eval=FALSE}
 # Não fica bom
@@ -58,7 +59,7 @@ xaringanExtra::use_share_again()
 ```{r style-share-again, echo=FALSE}
 # Estilize sua barra de compartilhamento e escolha sites de mídia social
 xaringanExtra::style_share_again(
-   share_buttons = c("twitter", "linkedin", "pocket")
+   share_buttons = c("twitter", "linkedin", "facebook")
 )
 ```
 
@@ -81,7 +82,7 @@ style_duo_accent(
 ```{r toc, echo=FALSE}
 xaringanExtra::use_panelset()
 ```
-class: animated zoomIn center
+
 # Sumário
 
 
